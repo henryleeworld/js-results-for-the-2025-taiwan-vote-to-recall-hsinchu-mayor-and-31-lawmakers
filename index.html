@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta property="og:title" content="台灣 2025 年新竹市長及 31 位立委罷免案開票結果" />
+        <meta property="og:description" content="各地公民團體發起罷免立委連署，截至 6 月 24 日，各罷免案均已屆二階截止期限，共有 1 名縣市長、31 名立委罷免案完成送件。" />
+        <meta property="og:locale" content="zh_TW" />
+        <meta property="og:type" content="website" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" integrity="sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/results.css" />
+        <title>台灣 2025 年新竹市長及 31 位立委罷免案開票結果</title>
+    </head>
+    <body>
+        <div id="map"></div>
+        <div id="loading" class="loading">載入中...</div>
+        <div class="controls">
+            <select id="recall-case-selector" class="recall-selector">
+                <option value="">所有罷免案</option>
+            </select>
+            <button id="chart-button" class="chart-button">
+                📊 總體結果
+            </button>
+        </div>
+        <div id="chart-popup" class="chart-popup">
+            <div class="chart-content">
+                <span class="chart-closer" id="chart-closer">&times;</span>
+                <h3 style="text-align: center; margin-bottom: 30px; color: #333;">2025 年罷免案總體投票結果分析</h3>
+
+                <div id="chart-stats" class="chart-stats"></div>
+
+                <div class="chart-container">
+                    <div class="chart-item">
+                        <h5>投票結果比例</h5>
+                        <canvas id="resultsChart"></canvas>
+                    </div>
+                    <div class="chart-item">
+                        <h5>投票率分布</h5>
+                        <canvas id="turnoutChart"></canvas>
+                    </div>
+                    <div class="chart-item">
+                        <h5>各縣市同意比例</h5>
+                        <canvas id="countyChart"></canvas>
+                    </div>
+                    <div class="chart-item">
+                        <h5>投票參與度</h5>
+                        <canvas id="participationChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" integrity="sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <script src="https://unpkg.com/topojson@3" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha512-CQBWl4fJHWbryGE+Pc7UAxWMUMNMWzWxF4SQo9CgkJIN1kx6djDQZjh3Y8SZ1d+6I+1zze6Z7kHXO7q3UyZAWw==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+        <script src="js/results.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "cunli": "仁愛區_玉田里",
+  "total_records": 1,
+  "sum_fields": {
+    "agree_votes": 222,
+    "disagree_votes": 226,
+    "valid_votes": 448,
+    "invalid_votes": 1,
+    "total_voters": 449,
+    "ballots_not_cast": 0,
+    "ballots_issued": 449,
+    "unused_ballots": 365,
+    "eligible_voters": 814,
+    "average_turnout_rate": 55.16
+  },
+  "records": [
+    {
+      "recall_case": "第11屆立法委員(基隆市選舉區)林沛祥罷免案各投開票所投開票結果表",
+      "district": "仁愛區",
+      "village": "玉田里",
+      "polling_station": "91",
+      "agree_votes": 222,
+      "disagree_votes": 226,
+      "valid_votes": 448,
+      "invalid_votes": 1,
+      "total_voters": 449,
+      "ballots_not_cast": 0,
+      "ballots_issued": 449,
+      "unused_ballots": 365,
+      "eligible_voters": 814,
+      "turnout_rate": 55.16
+    }
+  ],
+  "VILLCODE": "10017040008",
+  "COUNTYCODE": "10017",
+  "TOWNCODE": "10017040",
+  "COUNTYNAME": "基隆市",
+  "TOWNNAME": "仁愛區",
+  "VILLNAME": "玉田里"
+}

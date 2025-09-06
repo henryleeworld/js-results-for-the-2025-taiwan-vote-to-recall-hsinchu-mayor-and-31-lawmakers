@@ -11,8 +11,8 @@ $ git clone
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0jaoadW.png)
+![](https://i.imgur.com/1Y9aMF4.png)
 > 有效同意票數多於不同意票數，且同意票數達原選舉區選舉人總數 1/4 以上（25% 以上），即為通過
 
-![](https://i.imgur.com/m2E0bGo.png)
+![](https://i.imgur.com/VXaO5fE.png)
 > 有效罷免票數中，不同意票數多於同意票數或同意票數不足原選舉區選舉人總數 1/4 以上者，否決
